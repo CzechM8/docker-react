@@ -12,7 +12,7 @@ deploy:
   provider: elasticbeanstalk
   region: "us-east-1"
   app: "testreact"
-  env: "TestReact-env"
+  env: "Testreact-env"
   bucket_name: "elasticbeanstalk-us-east-1-193482107952"
   bucket_path: "testreact"
   on:
