@@ -11,10 +11,10 @@ script:
 deploy:
   provider: elasticbeanstalk
   region: "us-east-1"
-  app: "frontend"
-  env: "Frontend-env-2"
+  app: "testreact"
+  env: "TestReact-env"
   bucket_name: "elasticbeanstalk-us-east-1-193482107952"
-  bucket_path: "frontend"
+  bucket_path: "testreact"
   on:
     branch: main
   access_key_id: $AWS_ACCESS_KEY
